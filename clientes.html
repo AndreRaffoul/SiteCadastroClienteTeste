@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cadastro de Clientes</title>
+        <link rel="stylesheet" href="clientes.css">
+    </head>
+    <body>
+        <div class="box-clientes">
+            <h1>Cadastro de Clientes</h1>
+            <form action="#"> <!-- //aqui vamos precisar mudar a action add um atributo method="post" e o action="POST" -->
+                <div class="input-campos">
+                    <label>Nome</label>
+                    <input type="text" placeholder="Digite seu Nome" required>
+                </div>
+                <div class="input-campos">
+                    <label>Endereço</label>
+                    <input type="text" placeholder="Digite seu Endereço" required>
+                </div>
+                <div class="input-campos">
+                    <label>Email</label>
+                    <input type="email" placeholder="Digite seu Email" required>
+                </div><div class="input-campos">
+                    <label>Telefone</label>
+                    <input type="number" placeholder="Digite seu Telefone" required>
+                </div>
+                <input type="submit" value="Cadastrar">
+            </form>
+        </div>
+    </body>
+        </html>
